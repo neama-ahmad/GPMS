@@ -82,3 +82,8 @@ Usability
 ###### Security
 1)	The users log in by academic email owned to Taibah university and strong password.
 2)	The user's accounts are created by the administrator (GPCommittee).
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/neama-ahmad/GPMS/assets/96380632/d12e9f7c-8e1a-4e41-bf51-559fb570cd65
+
