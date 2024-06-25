@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family:"JF Flat Regular";
+    src: url("../JF_Flat.ttf");
+  }
+      
+  body {
+    margin: 0;
+    font-family: 'JF Flat Regular', sans-serif;
+    direction: rtl;
+    color: #444;
+  }
+  
+
+:root {
+  --main-color: #038C85;
+  --main-color-dark:#553965;
+  --main-color-light: #fff;
+  --text-color: #cfcde7;
+}
+
+  .vertical-menu {
+    width: 18%;
+    height: 700px;
+    float: right;
+    background-color: rgb(253, 252, 252);
+    border-left:  rgba(233, 220, 220, 0.8) 1px solid;
+  }
+      
+  .vertical-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: rgba(233, 220, 220, 0.8) 1px solid;
+  }
+      
+  .vertical-menu a:hover {
+    color: white;
+  }
+  .vertical-menu a:focus {
+    color: #fff;
+  }
+
+      
+  .content{
+    float: left;
+    border:none;       
+  }
+
+  .logo, .user{
+    color: #fff;
+    font-size:15px;
+    list-style:none;
+    padding:12px;
+    cursor:pointer;
+    background-color: #F5B041;
+    
+  }
+
+  .user{
+    background-color: #038C85;
+    padding:12px;
+  }
+
+  #iframe1{
+    width: 82%;
+    height: 700px;
+  }
+      
+  #confirm {
+    color:#777;
+    display: flex; 
+    width: 100%;
+    height:100%;
+    padding-top: 120px;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    background: white;
+  }
+
+  #txtCode{
+    color:#333;
+    font-size:15px;
+    padding:9px;
+    margin-right: 20px;
+    width: 600px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Tajawal', sans-serif;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .button{
+    padding: 9px ;
+    margin: 30px 0px;
+    background-color:#15b3bf;
+    border-radius: 5px 5px 5px 5px;
+    width:50%;
+    border:none;
+    color:white;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    cursor:pointer;
+  }
+
+  .button:hover{
+    background-color:#b19263;
+  }
+
+  .error{
+    color: indianred;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+  }
+  
+  *:focus{
+    outline: none;
+  }
+/*
+  #a1:hover{
+    background-color:#eb7b9a;
+  }
+  #a1:focus{
+    background-color:#eb7b9a;
+  }
+  #a2:hover{
+    background-color:#FFBF00;
+  }
+  #a2:focus{
+    background-color:#FFBF00;
+  }
+  #a3:hover{
+    background-color:#000000;
+  }
+  #a3:focus{
+    background-color:#000000;
+  }
+  #a4:hover{
+    background-color:#8E44AD ;
+  }
+  #a4:focus{
+    background-color:#8E44AD ;
+  }
+  #a5:hover{
+    background-color:#2ECC71;
+  }
+  #a5:focus{
+    background-color:#2ECC71;
+  }
+  #a6:hover{
+    background-color:#ff8b2c;
+  }
+  #a6:focus{
+    background-color:#ff8b2c;
+  }
+  #a7:hover{
+    background-color:#d8e74e;
+  }
+  #a7:focus{
+    background-color:#d8e74e;
+  }
+  
+  #a8:focus{
+    background-color:#c077f1;
+  }
+  #a8:hover{
+    background-color:#c077f1;
+  }
+  #a11:focus{
+    background-color:#15b3bf;
+  }
+  #a11:hover{
+    background-color:#15b3bf;
+  }*/
+
+  #a10:hover{
+    background-color:#CF4A4A;
+  }
+  #a10:focus{
+    background-color:#CF4A4A;
+  }
+
+  a:hover{
+    background-color: #553965;
+  }
+
+  a:focus{
+    background-color: #553965;
+  }
+
+  #openbtn{
+    display: none;
+  }
+  #closebtn{
+    display: none;
+  }
+  
+  @media (max-width:1000px){
+
+    .vertical-menu {
+      width: 80%;
+      height: 700px;
+      float: right;
+      display: none;
+
+    }
+
+    #iframe1{
+      width: 100%;
+      height: 700px;
+    }
+        
+    .vertical-menu a {
+      padding: 12px;
+      font-size: 15px;
+    }
+
+
+    #openbtn{
+      display: block;
+      font-size: 16px;
+      padding: 18px; 
+      margin: 0;
+      cursor: pointer;
+      background-color: #553965;
+      color: #fff;
+
+    }
+
+    #closebtn{
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 22%;
+      font-size: 30px;
+      margin-right: 0px;
+      padding:0px;
+      margin: 0;
+      color: #fff;
+      text-decoration: none;
+      border-bottom: none;
+    }
+    #closebtn:hover{
+      background-color: transparent;
+      color: #000;
+      text-decoration: none;
+    }
+    #closebtn:focus{
+      text-decoration: none;
+    }
+  }

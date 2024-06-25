@@ -1,0 +1,223 @@
+*{
+   box-sizing: border-box;
+}
+  
+@font-face {
+   font-family:"JF Flat Regular";
+   src: url("../JF_Flat.ttf");
+}
+      
+body {
+   margin: 0;
+   font-family: 'JF Flat Regular', sans-serif;
+   direction: rtl;
+   font-size: 15px;
+   color: #444;
+}
+
+.title{
+    font-size: 23px;
+    color: #f16465;
+    padding: 2px;
+    margin: 2px;
+}
+
+h4{
+    padding:2px;
+    margin:0;
+    font-size:15px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px 15px rgba(218, 218, 218, 0.25), 
+    -5px -5px 30px 15px rgba(211, 211, 211, 0.22);
+    padding: 20px  0px;
+    margin:70px 20px;
+}
+
+.right , .left{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0px;
+}
+
+.left .title{
+    padding:8px 0px;
+    margin:0px;
+}
+
+.forminput{
+    color: #3d3c3c;
+    padding: 7px;
+    margin:9px 0px;
+    font-size: 15px;
+    width: 80%;
+    border: 1px solid #ccc;
+    font-family: 'JF Flat Regular', sans-serif;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align:right;
+}
+  
+.forminput:placeholder {
+    color: #dddddd;
+    font-size:15px;
+}
+
+.btn-send{
+    padding: 6px 12px;
+    margin: 12px 0px;
+    background-color:#553965;
+    border-radius: 5px 5px 5px 5px;
+    width:80%;
+    border:none;
+    color:white;
+    font-family: 'JF Flat Regular', sans-serif;
+    font-size: 15px;
+    text-align:center;
+    cursor:pointer;
+}
+  
+.btn-send:hover{
+    background-color:#F5B041;
+}
+
+ 
+*:focus{
+    outline:none;
+}
+
+.left p{
+    font-size: 15px;
+}
+.link {
+    text-decoration: none;
+    color:#777;
+    text-align: center;
+    font-size:15px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color:DeepPink;
+}
+
+.right img{
+    height:85%;
+    width:85%;
+}
+  
+.error{
+    color: indianred;
+    font-size: 15px;
+}
+
+
+.Toback{
+    font-size:25px;
+    background-color:LightSlateGray;
+    text-align:center;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'JF Flat Regular', sans-serif;
+    cursor: pointer; 
+    width:5%;
+    height:8%;
+    padding:0;
+    border-radius:5px;
+    font-style:bold;
+    margin-right:12px;
+}
+
+.Toback:hover{
+    text-decoration: none;
+    background-color: #444;
+    color: #fff;
+}
+
+@media (max-width: 1000px){
+
+    .container{
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height:100%;
+        padding:12px;
+        padding-top: 50px;
+      
+    }
+
+    .title{
+        font-size: 20px;
+        color: #f16465;
+        padding: 2px;
+        margin: 2px;
+    }
+      
+    .row{
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height:100%;
+        padding: 40px 12px;
+        margin:40px 20px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:100%;
+        align-items: center;
+        justify-content: center;
+        padding: 14px;
+    }
+
+    .right{
+        display:none;
+    }
+
+
+    .forminput{
+        padding: 7px;
+        margin:12px 0px;
+        font-size: 15px;
+        width: 100%;
+    }
+      
+    
+    .btn-send{
+        padding: 6px 12px;
+        margin: 12px 0px;
+        width:100%;
+    }
+
+    .back{
+        width: 20%;
+        background-color: orange;
+    }
+    
+
+}
+  

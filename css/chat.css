@@ -1,0 +1,276 @@
+body{
+    background-color:#eee;
+}
+
+#mother{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-top:20px;
+}
+
+.Toback{
+    font-size:25px;
+    background-color:LightSlateGray;
+    text-align:center;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'JF Flat Regular', sans-serif;
+    cursor: pointer; 
+    width:5%;
+    height:1%;
+    padding:0;
+    border-radius:5px;
+    font-style:bold;
+    margin-right:10px;
+}
+
+.Toback:hover{
+    text-decoration: none;
+    background-color: #444;
+    color: #fff;
+}
+
+h3{
+    font-size: 20px;
+    color: #f16465;
+    padding: 2px;
+    margin: 2px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-Items:center;
+    justify-content: center;
+    width:100%;
+    background: none;
+    box-shadow:none;
+    height:auto;
+    position:sticky;
+   
+    
+}
+
+.column form{
+    display: flex;
+    flex-direction: row;
+    align-Items:center;
+    justify-content: center;
+    width:100%;
+    height:auto;
+    background: none;
+    box-shadow:none;
+    padding-bottom: 20px;
+}
+
+
+.button{
+    border: 2px solid white;
+    color: white;
+    padding: 7px;
+    width:10%;
+    font-size:14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #038C85;
+    border-radius: 50px;
+    font-family: 'JF Flat Regular', sans-serif;
+    cursor: pointer; 
+}
+
+.button:hover{
+    text-decoration: none;
+    background-color: #444;
+    color: #fff;
+}
+
+.forminput{
+    padding: 7px;
+    color: #333; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px;
+    width: 70%;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease-in-out;
+    font-family: 'JF Flat Regular', sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#error{
+    display:inline-block;
+    font-size:15px;
+    text-align: center;
+    width: 50%;
+    padding:9px;
+    padding-right:20px;
+    background-color: Gainsboro;
+    color:#666;
+    border-radius:5px;
+        
+}
+*:focus{
+    outline:none;
+}
+
+.row2{
+    padding:10px;
+    padding-right:11px;
+    align-Items:right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+    height:auto;
+    padding-top: 40px;
+   
+}
+
+.contianer1{
+    display:flex;
+    flex-direction:row;
+    align-Items: right;
+    justify-content:flex-start;
+    height:auto;
+}
+
+.contianer2{
+    display:flex;
+    flex-direction:row;
+    align-Items: left;
+   justify-content:flex-end;
+   height:auto;
+}
+
+.row2 .column2{
+    display:flex;
+    flex-direction:column;
+    align-items: right;
+    justify-content: flex-start;
+    width:45%;
+    height:auto;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px 15px rgba(218, 218, 218, 0.25), 
+        -5px -5px 30px 15px rgba(211, 211, 211, 0.22);
+    position:relative;
+    padding:10px;
+    margin: 12px 20px;   
+
+}
+
+#col1{
+    border-radius: 50px 50px 0px 50px;
+}
+
+#col2{
+    border-radius: 50px 50px 50px 0px;
+}
+
+
+
+  
+table {
+width:90%;
+direction:rtl;
+margin:12px;
+}
+
+td{
+text-align: right;
+color:#333;
+font-size:14px;
+padding: 10px;
+line-height: normal;
+word-wrap:break-word;
+}
+
+.bold{
+color:#038C85;
+}
+
+.time{
+font-size:11px;
+color: #999;
+position:absolute;
+bottom:7px;
+left: 25px;
+}
+
+.how{
+font-size:11px;
+position:absolute;
+bottom:7px;
+right: 25px;
+color:#999;
+}
+
+#del-btn{
+    width:60px;
+    background-color: indianred;
+    margin:0;
+    margin-top: 12px;
+}
+
+#del-btn:hover{
+    background:#999;
+}
+@media (max-width: 1000px){
+
+body{
+    font-size: 15px;
+}
+#mother h3{
+    font-size: 20px;
+}
+
+.row2{
+    padding-top:12px;
+    align-Items:center;
+    justify-content: center;
+    width:100%;
+}
+.column2{
+    width:100%;
+    height:350px;
+    margin:20px 12px;
+    padding:10px;
+}
+
+
+.button{
+    padding: 6px;
+}
+
+.button:hover{
+    text-decoration: none;
+    background-color: #444;
+    color: #fff;
+}
+
+.forminput{
+    padding: 8px;
+    margin: 8px;
+    width: 60%;
+
+}
+
+#error{
+    width: 90%
+        
+}
+
+#del-btn{
+    padding: 12px;
+    width:100px;
+}
+
+
+
+}
