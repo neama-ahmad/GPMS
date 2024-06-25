@@ -29,14 +29,14 @@ The project is aimed at the Project Committee's graduation at the Computer Scien
 #### Functional Requirements
 ##### The system should provide GPCommittee (Graduation Project committee) with following functions:
 1) They should log in using their email and password.
-2)They can create users' accounts and grant them permissions. 
+2) They can create users' accounts and grant them permissions. 
 3) They can activate students' accounts. 
 4) They can organize final discussions and link the examiners to the groups.
 5) They can send notifications to the students and the supervisors.
 6) They can archive projects.
 7) They can upload and download files.
 8) They can manage groups.
-9)They can redirect files to examiners.
+9) They can redirect files to examiners.
 ##### The system should provide the students with following functions:
 1)	They should sign up in the system.
 2)	They should log in using their email and password after activated their accounts by GPCommittee.
